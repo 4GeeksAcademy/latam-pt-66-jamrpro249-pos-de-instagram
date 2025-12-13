@@ -4,6 +4,18 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body{
+  background-color: rgb(16, 16, 16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post{
+  width: 450px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  margin: 30px;
+}
 .post-header {
   display: flex;
   align-items: center;
@@ -14,14 +26,27 @@
 }
 
 .logo-svg img {
-  height: 60px;
+  margin: 10px;
+  height: 30px;
 }
 .post-header i {
-  font-size: 30px;
+  font-size: 25px;
 }
 .post-img img {
-  height: 700px;
+  height: 320px;
   width: 100%;
+}
+.title-left h3 {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.title-left h5 {
+  margin-top: 0.2px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+.Menu-right{
+  font-weight: bold;
 }
 .post-icon {
   display: flex;
@@ -29,12 +54,12 @@
   padding: 10px;
 }
 .post-icon div i {
-  font-size: 30px;
+  font-size: 25px;
   padding: 10px;
 }
 .post-body p {
-  font-size: 20px;
-  margin: 15px;
+  font-size: 15px;
+  margin: 17px;
 }
 .post-body p span {
     font-weight: bold;
