@@ -5,16 +5,16 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  background-color: rgb(16, 16, 16);
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: rgb(16, 16, 16);
 }
 .post{
   width: 450px;
   height: auto;
   background-color: rgb(255, 255, 255);
-  margin: 30px;
+  margin-top: 60px;
 }
 .post-header {
   display: flex;
